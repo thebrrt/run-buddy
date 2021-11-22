@@ -5,6 +5,28 @@ body {
 
 /* CSS Comments: We just set the body background and preferred fonts
 
+/*Utility Styles */
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+
+.flex-row {
+    display:flex;
+}
 /* apply styles to header */
 * {
     margin: 0;
@@ -146,41 +168,19 @@ section {
 }
 
 /* What We Do */
-
-.intro {
-    text-align: center;
-}
-
 .intro p {
     line-height: 1.7;
     color: #39a7b2;
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 
 /* Steps Styling */
 
 .steps {
-    text-align: center;
     background: #fce138;
-}
-
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom: 3px solid;
-}
-
-.primary-border {
-    border-color: #fce138;
-}
-
-.secondary-border {
-    border-color: #39a6b2;
 }
 
 .steps div {
@@ -208,11 +208,6 @@ section {
 }
 
 /* Trainer Bios Section */
-
-.trainers {
-    text-align: center;
-}
-
 .trainer {
     width: 900px;
     margin: 0 auto 30px auto;
@@ -257,10 +252,8 @@ section {
 }
 
 /* Reach Out Section */
-
 .contact {
     background: #024e76;
-    text-align: center;
 }
 
 .contact h2 {
