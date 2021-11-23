@@ -254,8 +254,12 @@ section {
   transform: rotate(-58deg);
 }
 
-.checkbox-wrapper input:checked + label::after, .radio-wrapper input:checked + label::after {
-    opacity: 1;
+.checkbox-wrapper input + label::after, .radio-wrapper input + label::after {
+    content: none;
+}
+
+.checkbox-wrapper input:checked+ label::after, .radio-wrapper input:checked + label::after {
+    content: "";
 }
 
 /* What We Do */
